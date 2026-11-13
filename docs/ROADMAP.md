@@ -14,7 +14,7 @@
 **P1 — Quality and correctness**
 
 - [ ] Add video test fixtures with scrolling textures, moving objects, and dark/bright transitions.
-- [ ] Compare FFmpeg \`delogo\`, OpenCV spatial inpainting, and temporal background reconstruction.
+- [ ] Compare FFmpeg `delogo`, OpenCV spatial inpainting, and temporal background reconstruction.
 - [ ] Add optional corner-border handling for masks touching image edges.
 - [ ] Verify VFR inputs, color management, HDR/10-bit input, rotated-video metadata, and multiple audio tracks.
 - [ ] Provide objective checks (frame count/fps, audio packet/codec comparison, VMAF/SSIM outside the edit region).

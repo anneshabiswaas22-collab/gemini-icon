@@ -2,7 +2,7 @@
 
 ## Origin and user intent
 
-The project name is **Remove Gemini Icon**. The first user request, dated **6 November 2026**, was to edit the uploaded video \`gemini_generated_video_33dccd44.mp4\` and remove the Gemini symbol in the **lower-right corner**. The next user message asked what had been done and requested an explanation.
+The project name is **Remove Gemini Icon**. The first user request, dated **6 November 2026**, was to edit the uploaded video `gemini_generated_video_33dccd44.mp4` and remove the Gemini symbol in the **lower-right corner**. The next user message asked what had been done and requested an explanation.
 
 The user's desired outcome was a **usable edited MP4**, not just written directions. Quality constraints from the prior exchange:
 - Remove the visible lower-right icon without obvious editing artifacts.
@@ -22,13 +22,13 @@ However, the retrievable project history **does not include** that script, the a
 
 ## Current independently verifiable baseline
 
-As of **13 November 2026**, this repository was inspected and initially contained only \`README.md\` with \`# gemini-icon\`. This handoff introduces an independently implemented, generic FFmpeg \`delogo\` CLI, synthetic-video tests, docs, and CI. It does **not** reconstruct or reproduce the undocumented original transparency method.
+As of **13 November 2026**, this repository was inspected and initially contained only `README.md` with `# gemini-icon`. This handoff introduces an independently implemented, generic FFmpeg `delogo` CLI, synthetic-video tests, docs, and CI. It does **not** reconstruct or reproduce the undocumented original transparency method.
 
 ## Boundaries
 
 - Do not include private chat transcripts or media without explicit authorization.
 - Do not commit the source MP4 or the edited output by default. Video assets may be too large and rights-sensitive for an ordinary public Git repository.
-- \`delogo\` estimates missing pixels using nearby colors. It cannot recover arbitrary original pixels obscured by an opaque mark.
+- `delogo` estimates missing pixels using nearby colors. It cannot recover arbitrary original pixels obscured by an opaque mark.
 - Maintain disclosure/provenance where it matters; work only on videos the user can lawfully modify.
 - This is a focused media-processing repository, **not** the user's separate full-featured AI video-editor or animated-movie project.
 
