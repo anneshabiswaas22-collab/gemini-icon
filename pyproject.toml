@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gemini-corner-editor"
+version = "0.1.0"
+description = "Reproducible local corner-region video editor based on FFmpeg"
+requires-python = ">=3.10"
+
+[project.scripts]
+gemini-icon = "gemini_icon.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

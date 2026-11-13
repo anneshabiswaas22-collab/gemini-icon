@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+# Media and generated outputs (keep large/private binaries out of Git)
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+*.log
+*.partial.mp4
+!docs/images/.gitkeep
